@@ -20,7 +20,7 @@ public class ProductEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Integer id;
-    @Column(name = "Name")
+    @Column(name = "Name", unique = true)
     private String name;
     @Column(name = "description")
     private String description;
