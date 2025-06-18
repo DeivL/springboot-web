@@ -14,5 +14,5 @@ public class ProductDTO {
     private String description;
     private String type;
     private String style;
-    private String time;
+    private Integer time;
 }
