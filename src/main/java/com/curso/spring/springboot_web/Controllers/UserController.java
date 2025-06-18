@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @RequestMapping("/users")
 public class UserController {
 
-    @GetMapping("/")
+    /*@GetMapping("/")
     public ResponseEntity getAllUsers() {
     return ResponseEntity.ok(usersService.getAllUsers());
     
@@ -63,7 +63,7 @@ public class UserController {
        
        return entity;
    }
-   
+   */
    
 
     
